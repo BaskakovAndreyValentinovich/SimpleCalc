@@ -1,0 +1,77 @@
+
+   @font-face { 
+    font-family: 'DS-Digital'; 
+    src: url('ds-digital.ttf') ;
+   }
+ 
+   .disp {
+    font-family: 'DS-Digital';
+       width: 96%;
+       height:50px;
+       font-size:38pt;
+       background-color:lightgray;
+   }
+
+   .calc {
+       width: 300px; /*530px ext */
+       float: left;
+   }
+   .keyb1 {
+    width:300px;
+	min-height:405px;
+	float:left;
+	margin:0;
+	padding:0;
+   }
+   
+   .but {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:69px;
+	height:75px;
+	margin-right:2%;
+	margin-top:2%;
+	float:left;
+	border:none;
+    background-color:rgb(228, 226, 226);
+    font-size:18pt;
+   }
+
+   .keyb2 {
+    width:225px;
+	min-height:405px;
+	float:left;
+	margin:0;
+	padding:0;
+	display:none;
+   }
+
+   .orange{
+	background-color:#edd19c;
+
+   }
+   .btn {
+    float:left;
+	border:none;
+	height:75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    margin-right:2.7%;
+	margin-top:2.7%;
+    width:30%;
+	background-color:#d1e9ff;
+    font-size:18pt;
+
+   }
+.but:active {
+    background-color:rgb(141, 126, 126);
+    box-shadow: 18pt;
+}
+
+.btn:active {
+    background-color:rgb(141, 126, 126);
+    box-shadow: 18pt;
+}

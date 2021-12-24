@@ -1,2 +1,2 @@
 # repos
-Me first calculator. Using JS HTML CSS.
+My first calculator. Using JS HTML CSS.

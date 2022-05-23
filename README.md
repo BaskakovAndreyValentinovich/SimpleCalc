@@ -1,2 +1,2 @@
 # Simple calc
-My first calculator. Using JS HTML CSS.
+My simple calculator. Using JS HTML CSS.
